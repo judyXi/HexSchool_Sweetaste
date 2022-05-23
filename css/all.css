@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 940px;
+  margin-top: 30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .logo {
+  width: 200px;
+}
+
+.allBot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.allBot .Bot {
+  padding: 10px 30px 8px 30px;
+  text-align: center;
+  line-height: 25px;
+}
+.allBot .Bot a {
+  color: #3F5D45;
+  text-decoration: none;
+  font-weight: bold;
+}
+.allBot img {
+  padding: 9px 0 7px 49px;
+}
+
+.banner {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.mainCade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mainCade li {
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid #EAF0ED;
+}
+.mainCade li a {
+  width: 298px;
+  height: 65px;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  color: #3F5D45;
+}
+.mainCade li a:hover {
+  background-color: #EAF0ED;
+}
+
+.left01 {
+  background-color: #3F5D45;
+  color: #EAF0ED;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.shopping .shoppingbox {
+  position: relative;
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.shopping .shoppingbox .add {
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #EAF0ED;
+  color: #3F5D45;
+  display: block;
+  width: 298px;
+  padding: 16px 0;
+  background-color: #EAF0ED;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-size: 19px;
+  color: #3F5D45;
+}
+.box .text1 {
+  width: 171px;
+  padding: 14px 33px;
+  border-right: 2px solid #EAF0ED;
+  border-left: 2px solid #EAF0ED;
+}
+.box .text2 {
+  width: 130px;
+  padding: 14px 20px 14px 20px;
+  border-right: 2px solid #EAF0ED;
+  font-weight: bold;
+}
+
+.favorite {
+  position: absolute;
+  width: 28px;
+  top: 19px;
+  right: 22px;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background: #3F5D45;
+  color: #EAF0ED;
+  padding: 12px 10px 18px 8px;
+  letter-spacing: 4px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}

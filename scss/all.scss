@@ -1,0 +1,139 @@
+@import "resat";
+@import "base";
+
+.wrap{
+    margin: 0 auto;
+    width: 940px;
+    margin-top: 30px ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        width: 200px;
+    }
+
+}
+
+
+.allBot{
+    display: flex;
+    justify-content: space-around;
+    .Bot{
+        padding: 10px 30px 8px 30px;
+        text-align: center;
+        line-height: 25px;
+        a{
+            color: $c1;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+
+    }
+    img{
+        padding: 9px 0 7px 49px;
+    }
+}
+
+.banner{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+.mainCade{
+    display: flex;
+    justify-content: space-between;
+    li{
+        text-align: center;
+        line-height: 60px;
+        border: 1px solid $c2;
+        a{
+            width: 298px;
+            height: 65px;
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: $c3;
+            text-decoration: none;
+            color: $c1;
+            &:hover{
+                background-color: $c2;
+            }
+        }
+    }
+}
+
+.left01{
+    background-color: $c1;
+    color: $c2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    .shoppingbox{
+        position: relative;
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        .add{
+            text-align: center;
+            font-size: 24px;
+            border: 1px solid $c2;
+            color: $c1;
+            display: block;
+            width: 298px;
+            padding: 16px 0;
+            background-color: $c2;
+        }
+    }
+}
+
+.box{
+    display: flex;
+    text-align: center;
+    font-size: 19px;
+    color: $c1;
+    .text1{
+        width: 171px;
+        padding: 14px 33px;
+        border-right: 2px solid $c2;
+        border-left: 2px solid $c2;
+    }
+    .text2{
+        width: 130px;
+        padding: 14px 20px 14px 20px;
+        border-right: 2px solid $c2;
+        font-weight: bold;
+    }
+}
+
+
+.favorite{
+    position: absolute;
+    width: 28px;
+    top: 19px;
+    right: 22px;
+}
+
+.tag{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: $c1;
+    color: $c2;
+    padding: 12px 10px 18px 8px;
+    letter-spacing: 4px;
+    writing-mode: vertical-lr;
+}
+
+
+
+
+
