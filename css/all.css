@@ -194,3 +194,42 @@ table {
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
 }
+
+.PagingButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.PagingButton ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.PagingButton li {
+  border: 1px solid #EAF0ED;
+}
+.PagingButton a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  color: #3F5D45;
+  font-size: 20px;
+}
+.PagingButton a:hover {
+  background: #EAF0ED;
+  color: #3F5D45;
+}
+.PagingButton img {
+  margin: 0 auto;
+  padding: 18px;
+}
+.PagingButton .picking {
+  background: #3F5D45;
+  color: #EAF0ED;
+}

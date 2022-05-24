@@ -133,7 +133,41 @@
     writing-mode: vertical-lr;
 }
 
+.PagingButton{
+    display: flex;
+    justify-content: flex-end;
+    ul{
+        display: flex;
+
+    }
+
+    li{
+        border: 1px solid $c2;
+    }
+    a{
+        display: block;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        text-decoration: none;
+        color: $c1;
+        font-size: 20px;
+        &:hover{
+            background: $c2; 
+            color:$c1;
+        }
+    }
+    img{
+        margin: 0 auto;
+        padding: 18px;
+    }
+
+    .picking{
+        background: $c1 ;
+        color: $c2;
 
 
-
+    }
+}
 
